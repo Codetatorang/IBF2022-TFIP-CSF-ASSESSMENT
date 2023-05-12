@@ -23,7 +23,10 @@ public class UploadController {
 		@RequestPart String title,
 		@RequestPart String comments
 	) {
-		logger.info("springboot backend called");
+		logger.info(">>>>>springboot backend called");
+
+		//task 3 
+		
 		return null;
 	}
 	
